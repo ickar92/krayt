@@ -781,4 +781,10 @@ main .download .ditemcard__position {
   main .features__items .fitem {
     width: 80%;
   }
+  main .iphone__image {
+    display: none;
+  }
+  main .iphone__content-header {
+    text-align: center;
+  }
 }
