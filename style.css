@@ -37,6 +37,9 @@ ul {
 .swiper-container2 {
   height: 380px;
 }
+.card.swiper-slide-next {
+  margin-right: 0;
+}
 /* Header Style*/
 header {
   background: url('img/header-bg.png');
@@ -514,7 +517,6 @@ main .reviews__items {
   }
 }
 main .reviews .card {
-  width: 360px !important;
   height: 273px;
   background-color: #f7fafc;
   display: -webkit-box;
@@ -529,24 +531,33 @@ main .reviews .card__person {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 40px;
+  padding: 20px;
 }
 main .reviews .card__info {
   margin-left: 20px;
 }
 main .reviews .card__text {
-  margin: 40px;
+  padding: 20px;
+  max-width: 80%;
   color: #777777;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 24px;
+  text-align: justify;
 }
 main .reviews .card__name {
   color: #222222;
   font-family: 'Dosis', sans-serif;
   font-size: 18px;
   font-weight: 400;
+  line-height: 24px;
+}
+main .reviews .card__position {
+  color: #777777;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
   line-height: 24px;
 }
 main .download {
@@ -622,13 +633,6 @@ main .download .ditem__content-text {
   font-weight: 300;
   line-height: 24px;
   margin-top: 10px;
-}
-main .download .ditemcard__position {
-  color: #777777;
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 24px;
 }
 /* Footer Style */
 .footer {
